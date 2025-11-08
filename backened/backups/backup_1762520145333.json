@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-11-07T12:55:45.333Z",
+  "adminCount": 2,
+  "userCount": 2,
+  "admins": [
+    {
+      "username": "superadmin",
+      "excelFileName": "admin_system_template.xlsx",
+      "createdAt": "2025-11-07T12:52:13.850Z"
+    },
+    {
+      "username": "admin",
+      "excelFileName": "admin_system_template.xlsx",
+      "lastLogin": "2025-11-07T12:52:13.853Z",
+      "createdAt": "2025-11-07T12:52:13.854Z"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Rythem",
+      "lastName": "Aggarwal",
+      "mobile": "9599633093",
+      "email": "rythemaggarwal7840@gmail.com",
+      "role": "Admin",
+      "createdBy": "admin",
+      "createdAt": "2025-11-07T12:52:27.692Z"
+    },
+    {
+      "firstName": "Rythem12",
+      "lastName": "Aggarwal",
+      "mobile": "9599633097",
+      "email": "rythemaggarwal7820@gmail.com",
+      "role": "Manager",
+      "createdBy": "admin",
+      "createdAt": "2025-11-07T12:52:48.295Z"
+    }
+  ]
+}

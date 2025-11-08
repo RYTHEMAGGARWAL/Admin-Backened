@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-11-07T16:22:56.698Z",
+  "adminCount": 2,
+  "userCount": 1,
+  "admins": [
+    {
+      "username": "superadmin",
+      "excelFileName": "admin_system_template.xlsx",
+      "createdAt": "2025-11-07T16:11:13.291Z"
+    },
+    {
+      "username": "admin",
+      "excelFileName": "admin_system_template.xlsx",
+      "lastLogin": "2025-11-07T16:11:13.296Z",
+      "createdAt": "2025-11-07T16:11:13.298Z"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "rythrm",
+      "lastName": "Aggarwal",
+      "mobile": "9599633093",
+      "email": "rythemaggarwal7840@gmail.com",
+      "role": "Supervisor",
+      "createdBy": "admin",
+      "createdAt": "2025-11-07T16:11:31.822Z"
+    }
+  ]
+}

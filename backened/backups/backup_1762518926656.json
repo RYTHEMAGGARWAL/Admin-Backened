@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-07T12:35:26.655Z",
+  "adminCount": 2,
+  "userCount": 3,
+  "admins": [
+    {
+      "username": "superadmin",
+      "excelFileName": "users-1762510126706.xlsx",
+      "createdAt": "2025-11-07T11:47:21.435Z"
+    },
+    {
+      "username": "admin",
+      "excelFileName": "users-1762510126706.xlsx",
+      "lastLogin": "2025-11-07T11:47:21.443Z",
+      "createdAt": "2025-11-07T11:47:21.446Z"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Rythem2",
+      "lastName": "Aggarwal",
+      "mobile": "9599633097",
+      "email": "rythemaggarwal6840@gmail.com",
+      "role": "User",
+      "createdBy": "7&#x2F;11&#x2F;2025, 3:38:38 pm",
+      "createdAt": "2025-11-07T11:47:21.461Z"
+    },
+    {
+      "firstName": "Rythem1",
+      "lastName": "Aggarwal",
+      "mobile": "9599633093",
+      "email": "rythemaggarwal7840@gmail.com",
+      "role": "Supervisor",
+      "createdBy": "7&#x2F;11&#x2F;2025, 3:38:17 pm",
+      "createdAt": "2025-11-07T11:47:21.462Z"
+    },
+    {
+      "firstName": "Rythem3",
+      "lastName": "Aggarwal",
+      "mobile": "8599633097",
+      "email": "rythemaggarwal6740@gmail.com",
+      "role": "Admin",
+      "createdBy": "admin",
+      "createdAt": "2025-11-07T11:47:41.354Z"
+    }
+  ]
+}
