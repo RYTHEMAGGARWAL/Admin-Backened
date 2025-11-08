@@ -87,11 +87,19 @@ const upload = multer({
 // Make upload available globally
 app.set('upload', upload);
 
-// ✅ MongoDB connection with reconnection handling
-mongoose.connect(process.env.MONGODB_URI)
-.then(() => console.log('✅ MongoDB Connected Successfully!'))
-.catch(err => {
-  console.error('❌ MongoDB Connection Error:', err);
+// Load environment variables
+require('dotenv').config();
+
+// MongoDB Connection
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+.then(() => {
+  console.log('✅ MongoDB Connected Successfully!');
+})
+.catch((err) => {
+  console.error('❌ MongoDB Connection Error:', err.message);
   process.exit(1);
 });
 
